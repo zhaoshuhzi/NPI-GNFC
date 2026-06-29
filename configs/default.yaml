@@ -1,0 +1,14 @@
+seed: 2026
+model:
+  eeg_channels: 8
+  time_steps: 32
+  n_regions: 8
+  n_vertices: 10
+  n_eigenmodes: 4
+  latent_dim: 8
+  text_embedding_dim: 16
+  hidden_dim: 16
+training:
+  batch_size: 4
+  learning_rate: 0.001
+  demo_steps: 5
